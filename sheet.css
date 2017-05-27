@@ -1,0 +1,141 @@
+﻿html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top left, #33CC33 0%, #3366FF 100%);
+}
+#wrapper {
+    min-height:100%;
+    min-width:100%;
+    
+    overflow:auto;
+}
+h2 {
+    color:antiquewhite;
+    font-size: 16px;
+    font-style:italic;
+    text-align:center;
+    font-family:'Comic Sans MS';
+    position:relative;
+    bottom:40px;
+
+}
+p {
+    color:##333333;
+    font-family:'Comic Sans MS';
+    font-size:10px;
+    position:fixed;
+    bottom:-1%;
+    font-weight:600;
+
+}
+.main {
+}
+.top-right {
+    
+    height:35px;
+    width:235px;
+    position:relative;
+    float:right;    
+    bottom:100px;
+    display:inline-block;
+
+}
+.left {
+    height:350px;
+    width:440px;
+    float:left;
+    display:inline-block;
+
+}
+#left_img {
+    border-radius: 25px;
+}
+.middle {
+    
+    display:inline-block;
+    height:370px;
+    width:420px;
+    float:left;
+    margin:19px;
+
+}
+#video {
+  display:flexbox;
+  position:relative;
+  bottom:50px;
+ left:18px;
+
+}
+button {
+    background-color: #29C25A; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:12px;
+    cursor:pointer;
+    transition: all 0.5s;
+    width:310px;
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#button {
+    display:inline-block;
+    position:relative;
+    left:15%;
+}
+
+
+
+
+}
+.balance {
+    
+   
+   
+}
+.right {
+   
+    height:350px;
+    width:440px;
+    float:right;
+    display:block;
+    position:relative;
+    bottom:40px;
+}
+#bottom {
+    height:130px;
+    width:100%;
+    background: linear-gradient(to left, #ffffff 0%, #669999 100%);
+    left:0px;
+    right:0px;
+    bottom:0px;
+    position:absolute;
+}
+.firsticon {
+    border:1px solid black;
+    height:100px;
+    width:200px;
+    border-radius:25px;
+    border-color:black;
+}
+ul{
+
+}
+
+li {
+    margin:6%;
+    display: inline;
+}
